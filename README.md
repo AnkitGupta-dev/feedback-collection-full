@@ -92,7 +92,9 @@ Password: examplepassword
 
 ## 🖼️ Screenshots (Optional)
 
-> *(Add screenshots here by dragging into README preview or linking from /screenshots folder if you add one)*
+> *(Add screenshots here by dragging into README preview or linking from /screenshots folder if you add one)*![Screenshot 2025-06-14 142538](https://github.com/user-attachments/assets/49dc1dcd-0e44-42c6-8e29-b07d82abe28c)
+![Screenshot 2025-06-14 141352](https://github.com/user-attachments/assets/c81e6e8b-c6d5-452f-a74c-725bacb077e8)
+
 
 ---
 
