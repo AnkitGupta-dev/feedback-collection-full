@@ -1,0 +1,101 @@
+body {
+  background-color: #ccfff0 ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #e6fff2 ;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.App h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  align-self: center;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 50%;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+p {
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.success {
+  color: #28a745;
+}
+
+.error {
+  color: #dc3545;
+}
+
+/* Navbar Styles */
+/* Clean Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #e6fff2; /* white like the rest of the page */
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #009e80;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
